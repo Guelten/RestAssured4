@@ -407,7 +407,8 @@ public class ZippoTest {
 
     @Test
     public void extractingJson()
-    {
+    { //POJO (Plain Old Java Object)
+
 //        Ogrenci ogr=new Ogrenci();
 //        ogr.id=1;
 //        ogr.isim="ismet temur";
