@@ -45,7 +45,7 @@ public class CountryTest {
                 .extract().response().getDetailedCookies()
         ;
 
-        System.out.println("cookies = " + cookies);
+       // System.out.println("cookies = " + cookies);
 
     }
 
@@ -81,7 +81,7 @@ public class CountryTest {
     }
 
 
-    @Test(dependsOnMethods = "createCountry")
+    @Test(dependsOnMethods = "createCountry", priority = 1)
     public void createCountryNegative()
     {
         Country country= new Country();
